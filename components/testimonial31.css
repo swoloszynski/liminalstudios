@@ -1,0 +1,113 @@
+.testimonial31-max-width {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.testimonial31-thumbnail {
+  max-width: 640px;
+}
+ 
+.testimonial31-content {
+  gap: var(--dl-layout-space-twounits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-width: 800px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.testimonial31-stars {
+  fill: var(--dl-color-theme-primary1);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.testimonial31-avatar {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+ 
+.testimonial31-avatar-content {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.testimonial31-text2 {
+  font-weight: 600;
+}
+ 
+.testimonial31-logo {
+  height: 2rem;
+}
+ 
+.testimonial31-fragment1 {
+  display: contents;
+}
+ 
+.testimonial31-text4 {
+  display: inline-block;
+}
+ 
+.testimonial31-fragment2 {
+  display: contents;
+}
+ 
+.testimonial31-text5 {
+  display: inline-block;
+}
+ 
+.testimonial31-fragment3 {
+  display: contents;
+}
+ 
+.testimonial31-text6 {
+  display: inline-block;
+}
+ 
+@media(max-width: 991px) {
+  .testimonial31-max-width {
+    flex-direction: column;
+  }
+  .testimonial31-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial31-avatar {
+    gap: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .testimonial31-max-width {
+    padding: var(--dl-layout-space-threeunits);
+  }
+}
+ 
+@media(max-width: 479px) {
+  .testimonial31-max-width {
+    padding: var(--dl-layout-space-oneandhalfunits);
+  }
+  .testimonial31-text1 {
+    text-align: center;
+  }
+  .testimonial31-avatar {
+    flex-direction: column;
+  }
+  .testimonial31-avatar-content {
+    align-items: center;
+    margin-bottom: var(--dl-layout-space-oneandhalfunits);
+  }
+}

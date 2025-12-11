@@ -14,6 +14,7 @@
 }
  
 .features7-over-title1 {
+  display: none;
   font-weight: 600;
 }
  
@@ -26,6 +27,7 @@
 }
  
 .features7-over-title2 {
+  display: none;
   font-weight: 600;
 }
  
@@ -38,6 +40,7 @@
 }
  
 .features7-over-title3 {
+  display: none;
   font-weight: 600;
 }
  
@@ -111,6 +114,7 @@
  
 .features7-text8 {
   display: inline-block;
+  font-family: "Noto Sans";
 }
  
 .features7-fragment9 {
@@ -119,6 +123,7 @@
  
 .features7-text9 {
   display: inline-block;
+  font-family: "Noto Sans";
 }
  
 @media(max-width: 991px) {

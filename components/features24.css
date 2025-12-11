@@ -150,12 +150,56 @@
   justify-content: center;
 }
  
+.features24-feature2-title2 {
+  font-family: "Noto Sans";
+}
+ 
+.features24-tab-horizontal4 {
+  gap: var(--dl-layout-space-twounits);
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.features24-divider-container4 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features24-container6 {
+  width: 2px;
+  align-self: stretch;
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+ 
+.features24-content4 {
+  gap: 16px;
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.features24-feature3-title {
+  font-family: "Noto Sans";
+}
+ 
 .features24-fragment1 {
   display: contents;
 }
  
 .features24-text1 {
   display: inline-block;
+  font-family: "Noto Sans";
+  font-weight: 700;
 }
  
 .features24-fragment2 {
@@ -172,6 +216,7 @@
  
 .features24-text3 {
   display: inline-block;
+  font-family: "Noto Sans";
 }
  
 .features24-fragment4 {
@@ -197,6 +242,17 @@
 .features24-text6 {
   display: inline-block;
 }
+ 
+.features24-fragment7 {
+  display: contents;
+}
+ 
+.features24-text7 {
+  display: inline-block;
+  font-family: "Noto Sans";
+}
+ 
+
  
 @media(max-width: 991px) {
   .features24-container2 {

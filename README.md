@@ -1,6 +1,14 @@
 # liminalstudios
 
-Static site for [liminalstudios.org](https://liminalstudios.org), a practice under the [samdw.org](https://samdw.org) umbrella. Served by GitHub Pages from the repo root.
+Static site for Liminal Studios, a practice under the [samdw.org](https://samdw.org) umbrella.
+
+Live: https://liminalstudios.org
+
+## Hosting
+
+Hosted on GitHub Pages, deployed from the root of `main`. Every push to `main` rebuilds the site. The custom domain is set in `CNAME`.
+
+## Files
 
 - `index.html` — homepage
 - `404.html` — not-found page
